@@ -1,0 +1,60 @@
+@import "reseteo";
+@import "body";
+@import "tipografia";
+
+.logo{
+    text-align: center;
+    .logo1{
+        width: 250px;
+        border-radius: 10%;
+        margin: 2.5%;
+        transition: all 1s ease;
+        .logo1:hover{
+            transform:scale(1.1, 1.1)
+        }
+    }
+}
+.section1{
+    background-image: url("../assets/img/background-celeste.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 30px;
+    margin: 50px;
+}
+.fondoaboutUs{
+    background-image: url("../assets/img/background-celeste.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 30px;
+    margin: 50px;
+}
+.anchoForm{
+    width: 30%;
+}
+.card-accounts{
+    border-radius: 5px;
+    text-align: left;
+    width: 300px;
+    height: 60px;
+}
+.card{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+.textoSeguridad{
+    background-image: url("../assets/img/background-celeste.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    padding: 10px;
+    margin: 30px;
+}

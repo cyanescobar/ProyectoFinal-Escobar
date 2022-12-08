@@ -1,0 +1,20 @@
+//Variables//
+$fontH:Arial, Helvetica,sans-serif;
+
+@font-face {
+    font-family: "ComicNeue-Bold.ttf";
+    src:url("../assets/font/ComicNeue-Bold.ttf");
+}
+@font-face{
+    font-family: "Sriracha-Regular.ttf";
+    src: url("../assets/font/Sriracha-Regular.ttf");
+}
+h1, h2, h3, h4, h5{
+    font-family: $fontH;
+}
+h3{
+    font-size: 1rem;
+}
+h2{
+    margin: 2%;
+}
